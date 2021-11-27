@@ -1,0 +1,24 @@
+.planos-h2{
+  text-align: center;
+}
+
+.icons-planos li{
+  display: inline;
+  text-align: center;
+  border: 12px;
+  padding: 16px;
+}
+
+.icons-planos a{
+  color: black;
+  text-align: center;
+}
+
+.icons-planos a:hover{
+  color: rgb(13, 59, 187);
+  text-decoration: none;
+}
+
+.icons-planos a:hover{
+  transition: color 0.5s;
+}

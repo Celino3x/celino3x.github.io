@@ -1,0 +1,72 @@
+.header{
+  background: url(../img/banner.jpg) no-repeat;
+  background-size: cover;
+  height: 450px;
+  font-family: 'Titillium Web', sans-serif;
+}
+.header nav{
+    position: fixed;
+    width: 100%;
+}
+
+.info-h1{
+  color: white;
+}
+
+.header .menu-principal{
+  text-align: center;
+}
+
+.header .menu-principal .item-menu{
+  display: inline-block;
+  margin: 0 2px 15px 0;
+  margin-top: 15px;
+}
+
+.header .menu-principal .item-menu a{
+  color: rgb(255, 255, 255);
+  padding: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+.header .menu-principal .item-menu a:hover{
+  color: rgb(34, 196, 207);
+}
+
+.header .jumbotron-header{
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 90px;
+}
+
+.logo{
+  width: 150px;
+  height: 150px;
+}
+
+.header .jumbotron-header .title{
+  font-size: 3em;
+  color: rgb(37, 119, 159);
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+.header .jumbotron-header .subtitle{
+  font-size: 1.5em;
+  color: rgb(239, 239, 246);
+  margin-top: 5px;
+  font-family: 'Arapey', serif;
+  text-shadow: 2px 2px 5px rgb(23, 11, 94);
+}
+
+.header .jumbotron-header .painel-saiba-mais{
+  margin-top: 28px;
+}
+
+@media (min-width: 650px) {
+  .header .jumbotron-header{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 25px;
+  }
+}

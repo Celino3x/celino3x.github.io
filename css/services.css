@@ -1,0 +1,66 @@
+.services{
+  padding-top: 40px;
+  background: rgb(21, 149, 190);
+}
+
+.services .about-services{
+  text-align: center;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.services .about-services{
+  font-size: 40px;
+  margin-bottom: 16px;
+}
+
+.services .subtitle{
+  font-size: 20px;
+  margin-bottom: 16px;
+  color: rgb(255, 255, 255);
+}
+
+.services .square-img{
+  text-align: center;
+  margin: 10px
+}
+
+.services .square-img a{
+  color: rgb(0, 0, 0);
+}
+
+.services .square-img a:hover{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.services .square-img:hover{
+  box-shadow: 0 0 5px;
+  transition: box-shadow 0.7s;
+  background-color: rgb(156, 156, 156);
+  color: white;
+
+  transform: scale(1.2) rotate(-1deg);
+}
+
+.services .square-img{
+  background: rgb(255, 255, 255);
+  display: inline-block;
+  border-radius: 10px;
+  vertical-align: top;
+}
+
+
+
+.figcaption-services{
+  margin-top: 25px;
+}
+
+.services .img-icon{
+  border-radius: 50%;
+}
+
+.services .descricao-servicos{
+  font-weight: bold;
+  font-family: 'Titillium Web', sans-serif;
+  margin-top: 40px;
+}

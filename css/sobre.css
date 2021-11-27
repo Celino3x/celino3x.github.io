@@ -1,0 +1,77 @@
+.painel-sobre{
+  padding-top: 40px;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.painel-sobre .sobre-div{
+  text-align: center;
+}
+
+.painel-sobre .about-h2{
+  font-size: 40px;
+  margin-bottom: 16px;
+}
+
+.painel-sobre .about-h4{
+  font-size: 22px;
+  margin-bottom: 16px;
+}
+
+.about-h4{
+  text-align: center;
+}
+
+@media (min-width: 650px) {
+  .about-h4{
+    text-align: left;
+    font-family: 'Titillium Web', sans-serif;
+  }
+}
+
+.descricao{
+  text-align: center;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+@media (min-width: 650px) {
+  .descricao{
+    text-align: left;
+    font-family: 'Titillium Web', sans-serif;
+  }
+}
+
+@media (min-width: 650px) {
+  .pc-img{
+    display: block;
+    vertical-align: top;
+    font-family: 'Titillium Web', sans-serif;
+  }
+}
+
+.sobre-p{
+  float: left;
+}
+
+.img-sobre{
+  float: right;
+}
+
+.painel{
+  width: auto;
+}
+
+.pc-img img{
+  margin: 10%;
+}
+
+@media (min-width: 650px) {
+  .painel{
+    margin: 10px 0;
+    padding: 10px;
+    width: 50%;
+  }
+
+  .pc-img img{
+    margin: auto;
+  }
+}

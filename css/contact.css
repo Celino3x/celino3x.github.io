@@ -1,0 +1,110 @@
+.box-form1{
+  float: left;
+}
+
+.box-form2{
+  float: right;
+}
+
+.contact{
+  padding-top: 45px;
+  font-family: 'Titillium Web', sans-serif;
+  margin:0px auto;
+}
+
+.contact-p{
+  font-size: 1.6em;
+}
+
+.contact .box-form2{
+  background-color: rgb(21, 149, 190);
+  color: rgb(255, 255, 255);
+}
+
+.lista-contato{
+  font-size: 18px;
+  padding-top: 25px;
+  text-align: center;
+}
+
+@media (min-width: 650px){
+  .lista-contato{
+    text-align: left;
+  }
+}
+
+.social-media{
+  margin: 0;
+  text-align: center;
+}
+
+@media (min-width: 650px) {
+  .social-media{
+    margin: 0;
+    text-align: left;
+  }
+}
+
+.social-media li{
+  display: inline-block;
+  list-style: outside none none;
+  margin: 5px;
+}
+
+.social-media a{
+  color: white;
+}
+
+/*FORMULÁRIO*/
+
+
+.contact{
+  margin-top: 32px;
+}
+
+.button-contato{
+  text-align: center;
+}
+
+.button-contato{
+  display: inline-block;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: 'Titillium Web', sans-serif;
+  padding: 25px 50px;
+}
+
+.field{
+  margin-bottom: 12px;
+}
+
+.field label{
+  display: block;
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+@media (min-width: 650px){
+  .field label{
+    text-align: left;
+  }
+}
+
+.field .field-input{
+  display: block;
+  width: 100%;
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px rgb(51, 156, 232);
+}
+
+.links-contact{
+  color: rgb(255, 255, 255);
+}
+
+.links-contact:hover{
+  color: rgb(153, 236, 216);
+  text-decoration: none;
+}
